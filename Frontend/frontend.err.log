@@ -1,0 +1,67 @@
+[2m19:20:27[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\src\components\Dashboard.tsx: Expected corresponding JSX closing tag for <span>. (245:12)
+
+[0m [90m 243 |[31m               [33m<[31m[33mspan[31m className[33m=[31m[32m"hidden"[31m[33m>[31m
+ [90m 244 |[31m               [33mRepresentaÃ§Ã£o[31m ainda distante da realidade
+[31m[1m>[22m[31m[90m 245 |[31m             [33m<[31m[33m/[31m[33mh2[31m[33m>[31m
+ [90m     |[31m             [31m[1m^[22m[31m
+ [90m 246 |[31m           [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 247 |[31m           [33m<[31m[33mp[31m className[33m=[31m[32m"text-xl md:text-2xl text-slate-600 font-medium leading-relaxed"[31m[33m>[31m
+ [90m 248 |[31m             [33mAs[31m mulheres representam mais de [35m50[31m[33m%[31m da população brasileira[33m,[31m mas ocupam apenas{[32m' '[31m}[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Remakker/Desktop/PROJETOS/radar-delas/Frontend/src/components/Dashboard.tsx[39m:245:12
+[33m  243|                <span className="hidden">
+  244|                RepresentaÃ§Ã£o ainda distante da realidade
+  245|              </h2>
+     |              ^
+  246|            </div>
+  247|            <p className="text-xl md:text-2xl text-slate-600 font-medium leading-relaxed">[39m
+      at constructor (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:4727:16)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:9775:18)
+      at C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\Remakker\Desktop\PROJETOS\radar-delas\Frontend\node_modules\@babel\parser\lib\index.js:12100:24)
